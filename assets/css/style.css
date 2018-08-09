@@ -26,9 +26,20 @@ nav{
     background-color: #4aaaa5;
     height:70px;
     width: 15%;
-    float: left;
+    float: left; 
  
 }
+
+h1{
+    text-align: left;
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    color:black;   
+}
+
 
 h2{
     text-align: center;
@@ -75,4 +86,58 @@ footer{
     border-top: 5px solid #4aaaa5;
     height: 70px;
     text-align: center;
+}
+
+.indexcontainer {
+    width: 960px;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: white;
+    
+    padding:20px;
+   
+    line-height: 1.5;
+    font-size: 18px;
+
+    border: 1px solid #dddddd;
+
+    border-radius: 5px; 
+ 
+    
+    
+}
+
+.parIn {
+   
+    height: auto;
+    background-color: white;
+    margin: 0;
+    padding:0;
+    margin-bottom: 15px;
+
+}
+
+.indexHeading{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    text-align: left;
+    margin-top:10px;
+    margin-bottom:20px;
+    padding:0;
+    font-weight: bold;
+
+}
+
+.indexImg{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+hr{
+    margin-bottom: 30px;
+    border-color: #dddd;
 }
